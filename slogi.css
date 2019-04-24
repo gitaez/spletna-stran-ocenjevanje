@@ -1,0 +1,156 @@
+html,body{
+	background-color: #A8BCE3;
+	margin:0;
+	padding:0;
+	font-family: times-new-roman; 
+
+}
+#GlavniOkvir{
+   margin: auto;
+  width: 50%;
+  height: 50%;
+}
+
+#Glava{
+	background-image: url('./Slike/smlogo3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 260px;
+	width: 825px;
+}
+
+
+.SlikaVBesediluEna{
+	height: 400px;
+	width: 820px;
+
+}
+
+#Navigacija ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	list-style-type: none;
+	height: 30px;
+	margin:5px;
+	position: sticky;
+
+
+}
+
+#Navigacija a{
+	display: block;
+	padding: 15px;
+
+} 
+
+#Navigacija a:link,
+#Navigacija a:visited,
+#Navigacija a:hover,
+#Navigacija a:active {
+	font-size:20px;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	border-bottom:0px;
+	padding:15px 30px;
+	box-sizing:border-box;
+
+}
+
+#PrvoBesedilo {
+
+	height: 500px;
+	width: 800px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: white;
+	font-size: 25px;
+}
+.Zgodba{
+	height: 25px;
+	width: 1200px;
+	text-align: center;
+	letter-spacing: 3px;
+	color: #f358a3;
+	font-size: 25px;
+
+}
+.SlikaZgodbaEna{
+	height: 350px;
+	width: 460px;
+	border-color: #F788BD;
+
+
+}
+.BesediloDve{
+	height: 400px;
+	width: 800px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #fff;
+	font-size: 20px;
+
+}
+
+#DrugoBesedilo{
+	height: 350px;
+	width: 800px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.Naslov{
+	height: 25px;
+	width: 800px;
+	text-align: center;
+	letter-spacing: 3px;
+	color: #f358a3;
+	font-size: 25px;
+}
+
+.Osebe{
+	height: 270px; 
+	width: 160px; 
+	border-color: #F788BD; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+#TretjeBesedilo{
+	height: 400px;
+	width: 800px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #fff;
+	font-size: 20px;
+}
+
+#CetrtoBesedilo{
+	height: 400px;
+	width: 800px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.SlikaAvtor{
+ 	height: 320px; 
+	width: 270px; 
+	border-color: #F788BD; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+#Noga{
+	float: right;
+	color: white;
+	margin: auto;
+	border-color: pink;  
+}
